@@ -4,35 +4,35 @@ import java.util.Scanner;
 public class Main {
     //Persona
 //Mesnaje que se muestr por pantalla
-    public static final String MSG_NAME = "Introdueix el nom de la persona:";
-    public static final String MSG_SURNAME = "Introdueix el cognom de la persona:";
-    public static final String MSG_DNI = "Introdueix el DNI de la persona:";
-    public static final String MSG_height = "Introdueix l'altura de la persona:";
-    public static final String MSG_width = "Introdueix el pes de la persona:";
+    private static final String MSG_NAME = "Introdueix el nom de la persona:";
+    private static final String MSG_SURNAME = "Introdueix el cognom de la persona:";
+    private static final String MSG_DNI = "Introdueix el DNI de la persona:";
+    private static final String MSG_height = "Introdueix l'altura de la persona:";
+    private static final String MSG_width = "Introdueix el pes de la persona:";
     //Car
-    public static final String MSG_model = "Introdueix el model del cotxe:";
-    public static final String MSG_brand = "Introdueix la marca del cotxe:";
-    public static final String MSG_price = "Introdueix el preu del cotxe:";
+    private static final String MSG_model = "Introdueix el model del cotxe:";
+    private static final String MSG_brand = "Introdueix la marca del cotxe:";
+    private static final String MSG_price = "Introdueix el preu del cotxe:";
     //Cat
-    public static final String MSG_name = "Introdueix el nom del gat:";
-    public static final String MSG_color = "Introdueix el color del gat:";
-    public static final String MSG_raza = "Introdueix la raza del gat:";
+    private static final String MSG_name = "Introdueix el nom del gat:";
+    private static final String MSG_color = "Introdueix el color del gat:";
+    private static final String MSG_raza = "Introdueix la raza del gat:";
     //Chair
-    public static final String MSG_1heigth = "Introdueix la altura de la cadira:";
-    public static final String MSG_2width = "Introdueix el pes de la cadira:";
+    private static final String MSG_1heigth = "Introdueix la altura de la cadira:";
+    private static final String MSG_2width = "Introdueix el pes de la cadira:";
     //Square
-    public static final String MSG_2heigth = "Introdueix la altura del cuadrat:";
-    public static final String MSG_area = "Introdueix l'area del cuadrat:";
+    private static final String MSG_2heigth = "Introdueix la altura del cuadrat:";
+    private static final String MSG_area = "Introdueix l'area del cuadrat:";
 
 
     public static void main(String[] args) {
         //Person
 //Escanear cosas xd
         Scanner sc = new Scanner(System.in);
-        //alumme_asix: Instància de la classe Person
+//alumme_asix: Instància de la classe Person
         Person alumne_asix = new Person();
         //alumme_daw: Instància de la classe Person
-        Person alumne_daw = new Person();
+        //Person alumne_daw = new Person();
 //Printa el mensaje
         System.out.println(MSG_NAME);
         alumne_asix.setName(sc.next());
