@@ -2,14 +2,7 @@ package com.company;
 
 public class Square {
 
-    float height, width, area;
-
-    public float getWidth() {
-        return this.width;
-    }
-    public void setWidth(float width) {
-        this.width = width;
-    }
+    float height, area;
 
     public float getArea() {
         return this.area;
